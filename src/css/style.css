@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  background-color: var(--color-white);
+  display: flex;
+}
+
+.navbar-ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-space-list {
+  display: inline-flex;
+}
+
+.navbar-ul-li {
+  margin: 0 10px 0 10px;
+}
+
+.search-input-text {
+  /* Altura */
+  height: 24px; 
+  padding-left: 5px;
+}
+
+.navbar-ul-li.search {
+  display: flex;
+}
+
+.search-button {
+  background-color: var(--color-green-light);
+  height: 24px;
+  border: none;
+  width: 50px;
+  font-weight: bold;
+}
