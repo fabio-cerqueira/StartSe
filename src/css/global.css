@@ -1,0 +1,27 @@
+:root {
+  --color: #32A67B;
+  --color: #49BF7C;
+  --color-green-light: #5ABF61;
+  --color-green: #84BF2C;
+  --color-white: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+em {
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+li { 
+  list-style-type: none;
+}
