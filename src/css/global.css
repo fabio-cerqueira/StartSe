@@ -1,9 +1,9 @@
 :root {
-  --color: #32A67B;
-  --color: #49BF7C;
+  --color-green-dark: #32A67B;
+  --color-green-2: #49BF7C;
   --color-green-light: #5ABF61;
   --color-green: #84BF2C;
-  --color-white: #F2F2F2;
+  --color-white: white;
 }
 
 * {
@@ -24,4 +24,18 @@ em {
 
 li { 
   list-style-type: none;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  right: 100%;
+  background-color: #83CF25;
 }
