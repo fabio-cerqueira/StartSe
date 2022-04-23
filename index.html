@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="shortcut icon" href="src/image/favicon-96x96.png" type="image/x-icon">
+    
 </head>
 
 <body>
@@ -18,29 +19,50 @@
         <ul class="navbar-ul">
             <!-- Div Neta -->
             <div>
-                <li class="navbar-ul-li"><img class="logo-icon" src="src/image/logo.jpg" alt="Logo" width="110"></li>
+                <li class="navbar-ul-li">
+                    <img class="logo-icon" src="src/image/logo-green-chain-2.png" alt="Logo" width="110">
+                </li>
             </div>
 
             <div id="navbar-space-list">
                 <li class="navbar-ul-li">A Green Chain</li>
-                <li class="navbar-ul-li">Projetos</li>
+                <li class="navbar-ul-li">Noticias</li>
                 <li class="navbar-ul-li">Denuncie</li>
                 <li class="navbar-ul-li">Seja um voluntário</li>
-                <li class="navbar-ul-li">Nossos parceiros</li>
-                <li class="navbar-ul-li">Fale conosco</li>
             </div>
 
             <div>
                 <li class="navbar-ul-li search">
-                    <input type="text" class="search-input-text">
-                    <button class="search-button">Go</button>
+                    <input type="text" class="search-input-text" placeholder="Pesquisar">
+                    <button class="search-button"><i class="bi bi-search"></i></button>
                 </li>
             </div>
         </ul>
     </nav>
     
-    <img src="src/image/sos-amazonia.jpg" alt="Sos Amazônia" height="150" width="100%">
     
+    <main class="main-video">        
+        <div class="video" id="video-florest">
+            <iframe src="https://www.youtube.com/embed/eNUpTV9BGac?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1&iv_load_policy=3" type="text/html"  frameborder="0" width="100%" height="100%" allowfullscreen></iframe>
+        </div>
+        <div class="main-banner-video">
+            <div class="banner-video-header">
+                <h1>Ajude salvar o mundo!</h1>
+            </div>
+            <div class="banner-video-body">
+                <p class="banner-video-p">&nbsp;&nbsp;A devastação da Amazônia verificada nos últimos três anos cresceu em níveis alarmantes, mostra levantamento realizado pelo Ipam (Instituto de Pesquisa Ambiental da Amazônia). Relatório da instituição publicado na quarta-feira (2) revela que o desmatamento no bioma foi 56,6% maior entre agosto de 2018 e julho de 2021 que no mesmo período de 2015 a 2018.</p> <br>
+                <p class="banner-video-p">&nbsp;&nbsp; De acordo com o relatório, 51% do desmatamento do último triênio ocorreu em terras públicas, sendo 83% dessas ações em áreas de domínio federal. Em termos absolutos, as chamadas Florestas Públicas Não Destinadas foram as mais atingidas: tiveram alta de 85% na área desmatada, passando de 1.743 km² derrubados anualmente para mais de 3.228 km². No último ano, essa categoria de floresta pública concentrou um terço de todo o desmatamento no bioma.</p>
+            </div>
+            <div class="banner-video-footer">
+               <a href="#noticias"><button class="button-86" role="button">Visualizar Noticias</button></a> 
+            </div>
+        </div>
+    </main>
+    
+    <header class="header-main-title" id="noticias">
+        <h1 class="header-main-title-h1">Notícias</h1>
+    </header>
+
     <section class="section-body">
         <div class="div-main">
             <h1>O cuidado com o desmatamento</h1>
@@ -68,6 +90,7 @@
             <p>É um programa criado e gerido pela Secretaria do Meio Ambiente e Infraestrutura- SEMA/BA- para coordenar e implementar as ações e atividades de voluntariado relacionadas à conservação ambiental no âmbito do estado da Bahia. <em>Mais >>></em></p>
         </div>
     </section>
+    
     <footer class="footer-bar">
         <div class="footer-bar-list">
             <ul class="footer-bar-ul">
@@ -77,7 +100,7 @@
                 <li class="footer-bar-ul-li"><p class="pointer">Junte-se a nós</p></li>
             </ul>
         </div>
-
+        
         <div class="footer-bar-list">
             <ul class="footer-bar-ul">
                 <li class="footer-bar-ul-li"><p class="pointer">Política de privacidade</p></li>
@@ -96,6 +119,9 @@
 
         </div>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js"></script>
+    <script src="/src/javascript/video-load.js" type="module"></script>
 </body>
 
 </html>
