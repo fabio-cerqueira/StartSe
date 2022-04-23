@@ -26,6 +26,11 @@ em {
   color: red;
 }
 
+a button,
+li a{
+  text-decoration: none;
+}
+
 img {
   object-fit: cover;
   width: 100%;
@@ -47,5 +52,5 @@ h1 {
 footer {
   width: 100%;
   right: 100%;
-  background-color: #83CF25;
+  background-color: var(--color-green);
 }
