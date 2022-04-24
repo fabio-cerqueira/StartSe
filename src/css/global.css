@@ -63,3 +63,8 @@ textarea, input {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
 }
+
+.max-width {
+  max-width: 1366px;
+  margin: 0 auto;
+}
