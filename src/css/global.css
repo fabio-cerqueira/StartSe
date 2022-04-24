@@ -51,6 +51,15 @@ h1 {
 
 footer {
   width: 100%;
-  right: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--color-green);
+  font-weight: bold;
+}
+
+textarea, input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
 }

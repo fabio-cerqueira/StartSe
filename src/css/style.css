@@ -278,7 +278,8 @@
 
 /* NOTICIAS */
 .header-main-title {
-  height: auto;
+  height: 63px;
+  
   margin: 30px 40px;
 }
 
@@ -425,4 +426,80 @@
    .cards {
      width: 90%;
    }
+}
+
+.section-cards,
+.section-member,
+.section-cadastre-se {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-cadastre-se {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 70%;
+  height: calc(100% - 93px);
+  margin: 10% auto;
+}
+
+.form-cadastre-se fieldset {
+  width: 100%;
+  height: 95%;
+}
+
+.label-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 22px;
+}
+
+.label-input textarea,
+.label-input input {
+  font-weight: bold;
+  height: 32px; 
+  border: 1px solid var(--color-green-dark);
+  padding: 8px 5px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.label-input textarea {
+  height: 100px;
+}
+
+.button-86.form-cadastre {
+  height: 32px;
+  width: 30%;
+}
+
+.perfil-member {
+  width: 60%;
+  border-radius: 100%;
+  height: 60%;
+   
+}
+
+.article-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 70px;
+  min-width: 300px;
+}
+
+.section-body,
+.section-div-member {
+  width: 100%;
+  height: calc(100% - 93px);
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-wrap: wrap;
 }
