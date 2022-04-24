@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 :root {
   --color-green-dark: #32A67B;
   --color-green-2: #49BF7C;
@@ -10,16 +13,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 em {
   font-weight: bold;
   font-style: italic;
   color: red;
+}
+
+a button,
+li a{
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 li { 
@@ -37,5 +52,5 @@ h1 {
 footer {
   width: 100%;
   right: 100%;
-  background-color: #83CF25;
+  background-color: var(--color-green);
 }
