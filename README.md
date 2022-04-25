@@ -22,7 +22,7 @@
 
 ![App Screenshot](/src/image/page-initial.png)
 <p align="center">
-  <a href="https://bancointer-redesign.netlify.app" target="_blank">
+  <a href="https://fmcerqueira79.github.io/StartSe/" target="_blank">
     Demostração no github
   </a>
 </p>
@@ -35,7 +35,7 @@
 
 ## :memo: License
 
-Esse projeto esta sobre a licença MIT [LICENSE](https://github.com/lukemorales/bancointer/blob/master/LICENSE) para mais informações.
+Esse projeto esta sobre a licença MIT [LICENSE](https://github.com/fmcerqueira79/StartSe/blob/main/LICENSE) para mais informações.
 
 ---
 
