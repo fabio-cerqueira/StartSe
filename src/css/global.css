@@ -4,6 +4,7 @@
 :root {
   --color-green-dark: #32A67B;
   --color-green-2: #49BF7C;
+  --color-green-2-transparent: #49bf7c95;
   --color-green-light: #5ABF61;
   --color-green: #84BF2C;
   --color-white: white;
@@ -67,4 +68,26 @@ textarea, input {
 .max-width {
   max-width: 1366px;
   margin: 0 auto;
+}
+
+.navigation-button {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+.navigation-button .navigation-link i{
+  color: rgb(24, 24, 24);
+  font-size: 34px;
+  transition: all 1s ease;
+}
+
+
+.navigation-button .navigation-link i:hover{
+  color: rgb(24, 24, 24);
+  font-size: 50px;
 }

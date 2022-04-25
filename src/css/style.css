@@ -105,7 +105,7 @@
 .main-banner-video {
   width: 70%;
   height: 55%;
-  min-height: 400px;
+  min-height: 300px;
   max-width: 800px;
   background-color: #141414c2;
   z-index: 100;
@@ -419,10 +419,26 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-member {
+  background-image: url("../image/wave-haikei.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .section-cards {
- height: 100vh; 
+  position: relative;
+  height: 100vh; 
+  background-image: url("../image/layered-waves-haikei.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 .form-cadastre-se {
@@ -433,6 +449,7 @@
   width: 70%;
   height: calc(100% - 93px);
   margin: 0 auto 10%;
+  padding: 50px 0;
 }
 
 .form-cadastre-se fieldset {
@@ -494,8 +511,12 @@
   flex-wrap: wrap;
 }
 
+.green-title {
+  color: var(--color-green-dark);
+  font-size: max(max(16px, 2vw), 22px);
+}
 
-@media (max-width: 700px)
+@media (max-width: 1200px)
 {
   .navbar {
     height: 150px;
@@ -517,4 +538,38 @@
   .button-86.nav-button {
     display: none;
   }
+  .button-86 {
+    font-size: 100%;
+  }
+  .section-member.section {
+    min-height: 900px !important;;
+  }
+
+  .section-cards.section {
+    min-height: 1600px !important;;
+  }
+
+  .section-cadastre-se.section {
+    min-height: 700px !important;;
+  }
+
+}
+
+@media (max-width: 1217px)
+{
+  .section-cards {
+    height: 100%;
+    min-height: 100vh;
+  }
+}
+
+@media (max-height: 1000px)
+{
+  .section-member.section {
+    min-height: 900px !important;;
+  }
+  .section-cards.section {
+    min-height: 900px !important;;
+  }
+
 }
